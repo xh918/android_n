@@ -1,0 +1,547 @@
+[
+  {
+    "name": "Albania Lek",
+    "ticker": "ALL",
+    "symbol": "Lek"
+  },
+  {
+    "name": "Afghanistan Afghani",
+    "ticker": "AFN",
+    "symbol": "؋"
+  },
+  {
+    "name": "Argentina Peso",
+    "ticker": "ARS",
+    "symbol": "$"
+  },
+  {
+    "name": "Aruba Guilder",
+    "ticker": "AWG",
+    "symbol": "ƒ"
+  },
+  {
+    "name": "Australia Dollar",
+    "ticker": "AUD",
+    "symbol": "$"
+  },
+  {
+    "name": "Azerbaijan Manat",
+    "ticker": "AZN",
+    "symbol": "\u20bc"
+  },
+  {
+    "name": "Bahamas Dollar",
+    "ticker": "BSD",
+    "symbol": "$"
+  },
+  {
+    "name": "Barbados Dollar",
+    "ticker": "BBD",
+    "symbol": "$"
+  },
+  {
+    "name": "Belarus Ruble",
+    "ticker": "BYN",
+    "symbol": "Br"
+  },
+  {
+    "name": "Belize Dollar",
+    "ticker": "BZD",
+    "symbol": "BZ$"
+  },
+  {
+    "name": "Bermuda Dollar",
+    "ticker": "BMD",
+    "symbol": "$"
+  },
+  {
+    "name": "Bolivia Bolíviano",
+    "ticker": "BOB",
+    "symbol": "$b"
+  },
+  {
+    "name": "Bosnia and Herzegovina Convertible Marka",
+    "ticker": "BAM",
+    "symbol": "KM"
+  },
+  {
+    "name": "Botswana Pula",
+    "ticker": "BWP",
+    "symbol": "P"
+  },
+  {
+    "name": "Bulgaria Lev",
+    "ticker": "BGN",
+    "symbol": "лв"
+  },
+  {
+    "name": "Brazil Real",
+    "ticker": "BRL",
+    "symbol": "R$"
+  },
+  {
+    "name": "Brunei Darussalam Dollar",
+    "ticker": "BND",
+    "symbol": "$"
+  },
+  {
+    "name": "Cambodia Riel",
+    "ticker": "KHR",
+    "symbol": "៛"
+  },
+  {
+    "name": "Canada Dollar",
+    "ticker": "CAD",
+    "symbol": "$"
+  },
+  {
+    "name": "Cayman Islands Dollar",
+    "ticker": "KYD",
+    "symbol": "$"
+  },
+  {
+    "name": "Chile Peso",
+    "ticker": "CLP",
+    "symbol": "$"
+  },
+  {
+    "name": "China Yuan Renminbi",
+    "ticker": "CNY",
+    "symbol": "¥"
+  },
+  {
+    "name": "Colombia Peso",
+    "ticker": "COP",
+    "symbol": "$"
+  },
+  {
+    "name": "Costa Rica Colon",
+    "ticker": "CRC",
+    "symbol": "\u20a1"
+  },
+  {
+    "name": "Croatia Kuna",
+    "ticker": "HRK",
+    "symbol": "kn"
+  },
+  {
+    "name": "Cuba Peso",
+    "ticker": "CUP",
+    "symbol": "\u20b1"
+  },
+  {
+    "name": "Czech Republic Koruna",
+    "ticker": "CZK",
+    "symbol": "Kč"
+  },
+  {
+    "name": "Denmark Krone",
+    "ticker": "DKK",
+    "symbol": "kr"
+  },
+  {
+    "name": "Dominican Republic Peso",
+    "ticker": "DOP",
+    "symbol": "RD$"
+  },
+  {
+    "name": "East Caribbean Dollar",
+    "ticker": "XCD",
+    "symbol": "$"
+  },
+  {
+    "name": "Egypt Pound",
+    "ticker": "EGP",
+    "symbol": "£"
+  },
+  {
+    "name": "El Salvador Colon",
+    "ticker": "SVC",
+    "symbol": "$"
+  },
+  {
+    "name": "Euro Member Countries",
+    "ticker": "EUR",
+    "symbol": "\u20ac"
+  },
+  {
+    "name": "Falkland Islands (Malvinas) Pound",
+    "ticker": "FKP",
+    "symbol": "£"
+  },
+  {
+    "name": "Fiji Dollar",
+    "ticker": "FJD",
+    "symbol": "$"
+  },
+  {
+    "name": "Ghana Cedi",
+    "ticker": "GHS",
+    "symbol": "¢"
+  },
+  {
+    "name": "Gibraltar Pound",
+    "ticker": "GIP",
+    "symbol": "£"
+  },
+  {
+    "name": "Guatemala Quetzal",
+    "ticker": "GTQ",
+    "symbol": "Q"
+  },
+  {
+    "name": "Guernsey Pound",
+    "ticker": "GGP",
+    "symbol": "£"
+  },
+  {
+    "name": "Guyana Dollar",
+    "ticker": "GYD",
+    "symbol": "$"
+  },
+  {
+    "name": "Honduras Lempira",
+    "ticker": "HNL",
+    "symbol": "L"
+  },
+  {
+    "name": "Hong Kong Dollar",
+    "ticker": "HKD",
+    "symbol": "$"
+  },
+  {
+    "name": "Hungary Forint",
+    "ticker": "HUF",
+    "symbol": "Ft"
+  },
+  {
+    "name": "Iceland Krona",
+    "ticker": "ISK",
+    "symbol": "kr"
+  },
+  {
+    "name": "India Rupee",
+    "ticker": "INR",
+    "symbol": ""
+  },
+  {
+    "name": "Indonesia Rupiah",
+    "ticker": "IDR",
+    "symbol": "Rp"
+  },
+  {
+    "name": "Iran Rial",
+    "ticker": "IRR",
+    "symbol": "﷼"
+  },
+  {
+    "name": "Isle of Man Pound",
+    "ticker": "IMP",
+    "symbol": "£"
+  },
+  {
+    "name": "Israel Shekel",
+    "ticker": "ILS",
+    "symbol": "\u20aa"
+  },
+  {
+    "name": "Jamaica Dollar",
+    "ticker": "JMD",
+    "symbol": "J$"
+  },
+  {
+    "name": "Japan Yen",
+    "ticker": "JPY",
+    "symbol": "¥"
+  },
+  {
+    "name": "Jersey Pound",
+    "ticker": "JEP",
+    "symbol": "£"
+  },
+  {
+    "name": "Kazakhstan Tenge",
+    "ticker": "KZT",
+    "symbol": "лв"
+  },
+  {
+    "name": "Korea (North) Won",
+    "ticker": "KPW",
+    "symbol": "\u20a9"
+  },
+  {
+    "name": "Korea (South) Won",
+    "ticker": "KRW",
+    "symbol": "\u20a9"
+  },
+  {
+    "name": "Kyrgyzstan Som",
+    "ticker": "KGS",
+    "symbol": "лв"
+  },
+  {
+    "name": "Laos Kip",
+    "ticker": "LAK",
+    "symbol": "\u20ad"
+  },
+  {
+    "name": "Lebanon Pound",
+    "ticker": "LBP",
+    "symbol": "£"
+  },
+  {
+    "name": "Liberia Dollar",
+    "ticker": "LRD",
+    "symbol": "$"
+  },
+  {
+    "name": "Macedonia Denar",
+    "ticker": "MKD",
+    "symbol": "ден"
+  },
+  {
+    "name": "Malaysia Ringgit",
+    "ticker": "MYR",
+    "symbol": "RM"
+  },
+  {
+    "name": "Mauritius Rupee",
+    "ticker": "MUR",
+    "symbol": "\u20a8"
+  },
+  {
+    "name": "Mexico Peso",
+    "ticker": "MXN",
+    "symbol": "$"
+  },
+  {
+    "name": "Mongolia Tughrik",
+    "ticker": "MNT",
+    "symbol": "\u20ae"
+  },
+  {
+    "name": "Mozambique Metical",
+    "ticker": "MZN",
+    "symbol": "MT"
+  },
+  {
+    "name": "Namibia Dollar",
+    "ticker": "NAD",
+    "symbol": "$"
+  },
+  {
+    "name": "Nepal Rupee",
+    "ticker": "NPR",
+    "symbol": "\u20a8"
+  },
+  {
+    "name": "Netherlands Antilles Guilder",
+    "ticker": "ANG",
+    "symbol": "ƒ"
+  },
+  {
+    "name": "New Zealand Dollar",
+    "ticker": "NZD",
+    "symbol": "$"
+  },
+  {
+    "name": "Nicaragua Cordoba",
+    "ticker": "NIO",
+    "symbol": "C$"
+  },
+  {
+    "name": "Nigeria Naira",
+    "ticker": "NGN",
+    "symbol": "\u20a6"
+  },
+  {
+    "name": "Norway Krone",
+    "ticker": "NOK",
+    "symbol": "kr"
+  },
+  {
+    "name": "Oman Rial",
+    "ticker": "OMR",
+    "symbol": "﷼"
+  },
+  {
+    "name": "Pakistan Rupee",
+    "ticker": "PKR",
+    "symbol": "\u20a8"
+  },
+  {
+    "name": "Panama Balboa",
+    "ticker": "PAB",
+    "symbol": "B/."
+  },
+  {
+    "name": "Paraguay Guarani",
+    "ticker": "PYG",
+    "symbol": "Gs"
+  },
+  {
+    "name": "Peru Sol",
+    "ticker": "PEN",
+    "symbol": "S/."
+  },
+  {
+    "name": "Philippines Piso",
+    "ticker": "PHP",
+    "symbol": "\u20b1"
+  },
+  {
+    "name": "Poland Zloty",
+    "ticker": "PLN",
+    "symbol": "zł"
+  },
+  {
+    "name": "Qatar Riyal",
+    "ticker": "QAR",
+    "symbol": "﷼"
+  },
+  {
+    "name": "Romania Leu",
+    "ticker": "RON",
+    "symbol": "lei"
+  },
+  {
+    "name": "Russia Ruble",
+    "ticker": "RUB",
+    "symbol": "\u20bd"
+  },
+  {
+    "name": "Saint Helena Pound",
+    "ticker": "SHP",
+    "symbol": "£"
+  },
+  {
+    "name": "Saudi Arabia Riyal",
+    "ticker": "SAR",
+    "symbol": "﷼"
+  },
+  {
+    "name": "Serbia Dinar",
+    "ticker": "RSD",
+    "symbol": "Дин."
+  },
+  {
+    "name": "Seychelles Rupee",
+    "ticker": "SCR",
+    "symbol": "\u20a8"
+  },
+  {
+    "name": "Singapore Dollar",
+    "ticker": "SGD",
+    "symbol": "$"
+  },
+  {
+    "name": "Solomon Islands Dollar",
+    "ticker": "SBD",
+    "symbol": "$"
+  },
+  {
+    "name": "Somalia Shilling",
+    "ticker": "SOS",
+    "symbol": "S"
+  },
+  {
+    "name": "South Africa Rand",
+    "ticker": "ZAR",
+    "symbol": "R"
+  },
+  {
+    "name": "Sri Lanka Rupee",
+    "ticker": "LKR",
+    "symbol": "\u20a8"
+  },
+  {
+    "name": "Sweden Krona",
+    "ticker": "SEK",
+    "symbol": "kr"
+  },
+  {
+    "name": "Switzerland Franc",
+    "ticker": "CHF",
+    "symbol": "CHF"
+  },
+  {
+    "name": "Suriname Dollar",
+    "ticker": "SRD",
+    "symbol": "$"
+  },
+  {
+    "name": "Syria Pound",
+    "ticker": "SYP",
+    "symbol": "£"
+  },
+  {
+    "name": "Taiwan New Dollar",
+    "ticker": "TWD",
+    "symbol": "NT$"
+  },
+  {
+    "name": "Thailand Baht",
+    "ticker": "THB",
+    "symbol": "฿"
+  },
+  {
+    "name": "Trinidad and Tobago Dollar",
+    "ticker": "TTD",
+    "symbol": "TT$"
+  },
+  {
+    "name": "Turkey Lira",
+    "ticker": "TRY",
+    "symbol": ""
+  },
+  {
+    "name": "Tuvalu Dollar",
+    "ticker": "TVD",
+    "symbol": "$"
+  },
+  {
+    "name": "Ukraine Hryvnia",
+    "ticker": "UAH",
+    "symbol": "\u20b4"
+  },
+  {
+    "name": "United Kingdom Pound",
+    "ticker": "GBP",
+    "symbol": "£"
+  },
+  {
+    "name": "United States Dollar",
+    "ticker": "USD",
+    "symbol": "$"
+  },
+  {
+    "name": "Uruguay Peso",
+    "ticker": "UYU",
+    "symbol": "$U"
+  },
+  {
+    "name": "Uzbekistan Som",
+    "ticker": "UZS",
+    "symbol": "лв"
+  },
+  {
+    "name": "Venezuela Bolívar",
+    "ticker": "VEF",
+    "symbol": "Bs"
+  },
+  {
+    "name": "Viet Nam Dong",
+    "ticker": "VND",
+    "symbol": "\u20ab"
+  },
+  {
+    "name": "Yemen Rial",
+    "ticker": "YER",
+    "symbol": "﷼"
+  },
+  {
+    "name": "Zimbabwe Dollar",
+    "ticker": "ZWD",
+    "symbol": "Z$"
+  }
+]

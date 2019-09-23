@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Australia Dollar",
+    "ticker": "AUD",
+    "symbol": "$"
+  },
+  {
+    "name": "Brazil Real",
+    "ticker": "BRL",
+    "symbol": "R$"
+  },
+  {
+    "name": "Canada Dollar",
+    "ticker": "CAD",
+    "symbol": "$"
+  },
+  {
+    "name": "China Yuan Renminbi",
+    "ticker": "CNY",
+    "symbol": "¥"
+  },
+  {
+    "name": "Czech Republic Koruna",
+    "ticker": "CZK",
+    "symbol": "Kč"
+  },
+  {
+    "name": "Denmark Krone",
+    "ticker": "DKK",
+    "symbol": "kr"
+  },
+  {
+    "name": "Euro Member Countries",
+    "ticker": "EUR",
+    "symbol": "\u20ac"
+  },
+  {
+    "name": "Hong Kong Dollar",
+    "ticker": "HKD",
+    "symbol": "$"
+  },
+  {
+    "name": "Hungary Forint",
+    "ticker": "HUF",
+    "symbol": "Ft"
+  },
+  {
+    "name": "India Rupee",
+    "ticker": "INR",
+    "symbol": "₹"
+  },
+  {
+    "name": "Indonesia Rupiah",
+    "ticker": "IDR",
+    "symbol": "Rp"
+  },
+  {
+    "name": "Israel Shekel",
+    "ticker": "ILS",
+    "symbol": "\u20aa"
+  },
+  {
+    "name": "Japan Yen",
+    "ticker": "JPY",
+    "symbol": "¥"
+  },
+  {
+    "name": "Korea (South) Won",
+    "ticker": "KRW",
+    "symbol": "\u20a9"
+  },
+  {
+    "name": "Malaysia Ringgit",
+    "ticker": "MYR",
+    "symbol": "RM"
+  },
+  {
+    "name": "Mexico Peso",
+    "ticker": "MXN",
+    "symbol": "$"
+  },
+  {
+    "name": "New Zealand Dollar",
+    "ticker": "NZD",
+    "symbol": "$"
+  },
+  {
+    "name": "Norway Krone",
+    "ticker": "NOK",
+    "symbol": "kr"
+  },
+  {
+    "name": "Philippines Piso",
+    "ticker": "PHP",
+    "symbol": "\u20b1"
+  },
+  {
+    "name": "Poland Zloty",
+    "ticker": "PLN",
+    "symbol": "zł"
+  },
+  {
+    "name": "Russia Ruble",
+    "ticker": "RUB",
+    "symbol": "\u20bd"
+  },
+  {
+    "name": "Singapore Dollar",
+    "ticker": "SGD",
+    "symbol": "$"
+  },
+  {
+    "name": "South Africa Rand",
+    "ticker": "ZAR",
+    "symbol": "R"
+  },
+  {
+    "name": "Sweden Krona",
+    "ticker": "SEK",
+    "symbol": "kr"
+  },
+  {
+    "name": "Switzerland Franc",
+    "ticker": "CHF",
+    "symbol": "CHF"
+  },
+  {
+    "name": "Thailand Baht",
+    "ticker": "THB",
+    "symbol": "฿"
+  },
+  {
+    "name": "Turkey Lira",
+    "ticker": "TRY",
+    "symbol": "₺"
+  },
+  {
+    "name": "United Kingdom Pound",
+    "ticker": "GBP",
+    "symbol": "£"
+  },
+  {
+    "name": "United States Dollar",
+    "ticker": "USD",
+    "symbol": "$"
+  }
+]

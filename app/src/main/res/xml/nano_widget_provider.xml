@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="250dp"
+    android:minHeight="50dp"
+    android:updatePeriodMillis="1000"
+    android:previewImage="@drawable/nano_large"
+    android:initialLayout="@layout/widget_single_crypto"
+    android:configure="com.nexlabs.comnexlabsnanowidget.ConfigurationActivity"
+    android:resizeMode="vertical|horizontal"
+    android:widgetCategory="home_screen">
+
+</appwidget-provider>

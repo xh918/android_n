@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_text_dimen">16sp</dimen>
+    <dimen name="subtitle_text_dimen">14sp</dimen>
+
+    <dimen name="horizontal_rec_view_layout_padding">8dp</dimen>
+    <dimen name="vertical_rec_view_layout_padding">4dp</dimen>
+
+    <dimen name="separator_height">1dp</dimen>
+    <dimen name="sub_separator_height">0.5dp</dimen>
+    <dimen name="sub_separator_horizontal_margin">8dp</dimen>
+
+    <dimen name="configuration_confirm_button_height">40dp</dimen>
+
+    <dimen name="base_counter_separator_height">0.5dp</dimen>
+
+
+
+    <dimen name="spinner_item_horizontal_padding">2dp</dimen>
+    <dimen name="spinner_item_vertical_padding">0.5dp</dimen>
+
+
+
+    <dimen name="asset_card_vertical_margin">6dp</dimen>
+    <dimen name="asset_card_horizontal_margin">2dp</dimen>
+    <dimen name="chart_padding">4dp</dimen>
+
+    <dimen name="asset_tv_margin">4dp</dimen>
+
+    <dimen name="date_picker_left_margin">16dp</dimen>
+    <dimen name="date_picker_left_large_margin">24dp</dimen>
+
+
+    <dimen name="btn_text_select_date_horizontal_padding">12dp</dimen>
+    <dimen name="btn_text_select_date_vertical_padding">5dp</dimen>
+
+    <dimen name="btn_card_select_date_horizontal_padding">8dp</dimen>
+    <dimen name="btn_card_select_date_vertical_padding">5dp</dimen>
+
+    <dimen name="text_sp_dimen">12sp</dimen>
+    <dimen name="low_importance_text_sp_dimen">10sp</dimen>
+    
+    <dimen name="actionbar_margin_right">10dp</dimen>
+    <dimen name="actionbar_margin_left">12dp</dimen>
+
+    <dimen name="portfolio_divider_height">4dp</dimen>
+
+    <dimen name="horizontal_padding_portfolio_buttons_layout">4dp</dimen>
+    <dimen name="layout_height_portfolio_item">64dp</dimen>
+    
+
+</resources>

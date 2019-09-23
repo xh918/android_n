@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white_high">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <!-- card colors -->
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow_1">#d4d4d4</color>
+    <color name="card_shadow_2">#dddddd</color>
+    <color name="card_detailing">#eee</color>
+
+    <color name="green_pump">#00C853</color>
+    <color name="red_dump">#BF360C</color>
+
+    <color name="text_black">#212121</color>
+    <color name="separator_background">#979797</color>
+    <color name="converter_separator">#979797</color>
+    <color name="grey_dull">#E0E0E0</color>
+    <color name="black_dull">#212121</color>
+</resources>

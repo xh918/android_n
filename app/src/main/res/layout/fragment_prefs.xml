@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/swipe_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.PreferencesFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5F5F5"
+        android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:id="@+id/assets_loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/assets_configuration_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/vertical_rec_view_layout_padding"
+            android:paddingLeft="@dimen/horizontal_rec_view_layout_padding"
+            android:paddingRight="@dimen/horizontal_rec_view_layout_padding"
+            android:paddingTop="@dimen/vertical_rec_view_layout_padding">
+
+            <android.support.v7.widget.CardView xmlns:cardview="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="4dp"
+
+                cardview:cardCornerRadius="@dimen/cardview_default_radius">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="@string/select_fx_currency_display_title"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/subtitle_text_dimen" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <Spinner
+                            android:id="@+id/assets_select_fx_currency_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"></Spinner>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/vertical_rec_view_layout_padding"
+            android:layout_marginLeft="@dimen/horizontal_rec_view_layout_padding"
+            android:layout_marginRight="@dimen/horizontal_rec_view_layout_padding"
+            android:layout_marginTop="@dimen/vertical_rec_view_layout_padding"
+            android:layout_weight="8"
+            >
+
+            <android.support.v7.widget.CardView xmlns:cardview="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/card_background"
+
+                cardview:cardCornerRadius="@dimen/cardview_default_radius">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/vertical_rec_view_layout_padding"
+                    android:paddingLeft="@dimen/horizontal_rec_view_layout_padding"
+                    android:paddingRight="@dimen/horizontal_rec_view_layout_padding"
+                    android:paddingTop="@dimen/vertical_rec_view_layout_padding">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.6"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/crypto_title"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/title_text_dimen" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/sub_separator_height"
+
+                        android:background="@color/separator_background"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5">
+                        <TextView
+
+                            android:text="@string/rank"
+                            android:visibility="gone"
+                            android:layout_margin="8dp"
+                            android:layout_width="wrap_content"
+                            android:gravity="center"
+                            android:layout_height="match_parent"
+                            android:textStyle="bold"
+                            android:textSize="12sp"
+                            android:textAlignment="center"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="64dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="2"
+                            >
+                            <TextView
+                                android:text="@string/price_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textAlignment="center"
+                                android:textSize="12sp"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="2"
+                            >
+                            <TextView
+                                android:text="@string/percentage_24h_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:textAlignment="center"
+                                android:textSize="12sp"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="2"
+                            >
+                            <TextView
+                                android:text="@string/marketcap_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:textAlignment="center"
+                                android:textSize="12sp"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:id="@+id/assets_refresh_btn_layout"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+
+                            android:gravity="center"
+                            android:layout_height="match_parent"
+                            >
+                            <ImageButton
+                                android:id="@+id/assets_refresh_btn"
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:scaleType="centerInside"
+                                android:adjustViewBounds="true"
+                                android:layout_height="45dp"
+                                android:paddingRight="20dp"
+                                android:paddingLeft="20dp"
+                                android:paddingTop="13dp"
+                                android:paddingBottom="10dp"
+                                android:src="@drawable/refresh_widget"
+                                android:background="@drawable/card"
+                                style="?android:attr/buttonStyle"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/sub_separator_height"
+
+                        android:background="@color/separator_background"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="7">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/assets_recycler_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingBottom="@dimen/vertical_rec_view_layout_padding"
+                            android:paddingLeft="@dimen/horizontal_rec_view_layout_padding"
+                            android:paddingRight="@dimen/horizontal_rec_view_layout_padding"
+                            android:paddingTop="@dimen/vertical_rec_view_layout_padding">
+
+                        </android.support.v7.widget.RecyclerView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

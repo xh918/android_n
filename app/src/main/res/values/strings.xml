@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">HashWatch</string>
+
+
+
+    <string name="price_title">Price</string>
+    <string name="percentage_24h_title">Change 24h</string>
+    <string name="sample_start">NANO</string>
+    <string name="refresh">refresh</string>
+    <string name="config_title">Configuration</string>
+
+    <string name="selected_crypto_text_info">Selected</string>
+    <string name="no_selection_made_text_info">No selection</string>
+
+    <string name="select_fx_currency_display_title">Select currency</string>
+    <string name="select_crypto_title">Select crypto</string>
+    <string name="crypto_and_fx_selected_divider_tv_title">in</string>
+
+    <string name="rank">Rank</string>
+    <string name="ticker">Ticker</string>
+
+
+    <string name="configuration_confirm_button_text">Confirm</string>
+
+    <string name="selected_from_recycler_text">Selected : </string>
+
+    <string name="internet_connection_required">Error :\ninternet connection required</string>
+    <string name="internet_required_for_price_data">Internet is required for prices</string>
+
+
+    <string name="crypto_title">Cryptocurrencies</string>
+    <string name="marketcap_title">Marketcap</string>
+    
+    <string name="total_supply_info">Total supply:\t</string>
+    <string name="circulating_supply_info">Circulating supply:\t</string>
+    <string name="github_repos_info">Code:\t</string>
+    <string name="market_cap_info">Market cap:\t</string>
+    <string name="total_volume_info">Total volume:\t</string>
+    <string name="description_info">Description:\t</string>
+
+    <string name="select_date_btn">select</string>
+
+
+    <string name="from_date">from date</string>
+    <string name="to_date">to date</string>
+
+    <string name="from_date_error">This date has to come before the other</string>
+    <string name="to_date_error">This date has to come after the other</string>
+
+
+    <string name="missing_both_dates">Both dates are required</string>
+    <string name="missing_from_date">Start date is missing</string>
+    <string name="missing_to_date">End date is missing</string>
+
+    <string name="last_updated">Last updated: </string>
+
+    <string name="connection_required">Connection is required</string>
+    <string name="server_error">Unable to reach the server</string>
+    <string name="retry_in_15s">Attempting to reconnect in 15 seconds</string>
+    <string name="press_back_again_exit">press exit again</string>
+
+
+    <string name="from_position_date">from: </string>
+    <string name="to_position_date">to: </string>
+
+    <string name="position_value">value:</string>
+    <string name="position_quantity">amount:</string>
+
+</resources>
