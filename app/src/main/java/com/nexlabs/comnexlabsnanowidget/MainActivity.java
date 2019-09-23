@@ -11,10 +11,13 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.SearchView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -31,9 +34,11 @@ import com.nexlabs.comnexlabsnanowidget.dao.APIaccessDao;
 import com.nexlabs.comnexlabsnanowidget.datapackage.Crypto;
 import com.nexlabs.comnexlabsnanowidget.datapackage.ImgType;
 import com.nexlabs.comnexlabsnanowidget.datapackage.MarketData;
+import com.nexlabs.comnexlabsnanowidget.fragments.AssetDetailsFragment;
 import com.nexlabs.comnexlabsnanowidget.fragments.BackStackFragment;
 import com.nexlabs.comnexlabsnanowidget.fragments.HostFragment;
 import com.nexlabs.comnexlabsnanowidget.fragments.MarketFragment;
+import com.nexlabs.comnexlabsnanowidget.fragments.PreferencesFragment;
 import com.nexlabs.comnexlabsnanowidget.utils.ImageReader;
 import com.nexlabs.comnexlabsnanowidget.utils.NetworkUtils;
 
@@ -124,6 +129,11 @@ public class MainActivity extends AppCompatActivity {
 
     boolean settingUp = true;
 
+    private static final int MENU_STATE_SHOWN = 0;
+    private static final int MENU_STATE_HIDDEN = 1;
+    private int MENU_STATE = 0;
+
+
     public boolean isSettingUp(){
         return settingUp;
     }
@@ -146,6 +156,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void openNewFragment(Fragment fragment) {
         HostFragment hostFragment = (HostFragment) pagerAdapter.getItem(viewPager.getCurrentItem());
+        if(hostFragment.getHostedFragment() != null){
+            if( hostFragment.getHostedFragment() instanceof MarketFragment){
+
+                MENU_STATE = MENU_STATE_SHOWN;
+            }else{
+                Fragment hostedFragment = hostFragment.getHostedFragment();
+                MENU_STATE = MENU_STATE_HIDDEN;
+            }
+            invalidateOptionsMenu();
+        }
+
         hostFragment.replaceFragment(fragment, true);
     }
 
@@ -161,9 +182,31 @@ public class MainActivity extends AppCompatActivity {
         viewPager = (ViewPager) findViewById(R.id.main_viewpager);
         tabLayout = (TabLayout) findViewById(R.id.viewpager_tab);
 
-        pagerAdapter = new CryptoPagerAdapter(getSupportFragmentManager());
+        pagerAdapter = new CryptoPagerAdapter(getSupportFragmentManager(), this);
         tabLayout.setupWithViewPager(viewPager);
+        MainActivity activity = this;
+        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                HostFragment hostFragment = (HostFragment)pagerAdapter.getItem(tab.getPosition());
+                if(hostFragment.getHostedFragment() instanceof MarketFragment){
+                    activity.setMenuVisibility(true);
+                }else{
+                    activity.setMenuVisibility(false);
+                }
+                activity.invalidateOptionsMenu();
+            }
 
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
+            }
+        });
        /* for (int i = 0; i < tabLayout.getTabCount(); i++) {
             //noinspection ConstantConditions
             TextView tv = (TextView) LayoutInflater.from(this).inflate(R.layout.tab_textview,null);
@@ -427,7 +470,66 @@ public class MainActivity extends AppCompatActivity {
             }, 2000);
         }
     }
+    public void setMenuVisibility(boolean isVisible){
+        if(isVisible){
+            MENU_STATE = MENU_STATE_SHOWN;
+        }else{
+            MENU_STATE = MENU_STATE_HIDDEN;
+        }
+        invalidateOptionsMenu();
+    }
 
+    public boolean isMenuVisible(){
+        return MENU_STATE == MENU_STATE_SHOWN;
+    }
+    /*
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuItem searchItem = menu.findItem(R.id.search);
+        System.out.println("CALLED FROM MAINACTIVITY");
+        if(searchItem != null) {
+            if (MENU_STATE == MENU_STATE_SHOWN) {
+                searchItem.setVisible(true);
+            } else {
 
+                searchItem.setVisible(false);
+            }
+        }
+        return super.onCreateOptionsMenu(menu);
+    }
+    */
+    /*
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+
+        if(MENU_STATE == MENU_STATE_HIDDEN){
+            final MenuItem searchItem = menu.findItem(R.id.search);
+            final SearchView searchView = (SearchView) searchItem.getActionView();
+            searchItem.setVisible(false);
+        }else {
+            final MenuItem searchItem = menu.findItem(R.id.search);
+            final SearchView searchView = (SearchView) searchItem.getActionView();
+            searchItem.setVisible(true);
+            if (searchView != null) {
+                searchView.setIconified(false);
+                searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+                    @Override
+                    public boolean onQueryTextSubmit(String query) {
+                        mAssetsAdapter.filter(query);
+                        return true;
+                    }
+
+                    @Override
+                    public boolean onQueryTextChange(String newText) {
+                        mAssetsAdapter.filter(newText);
+                        return true;
+                    }
+                });
+            }
+        }
+        return super.onCreateOptionsMenu(menu);
+    }
+    */
 
 }
